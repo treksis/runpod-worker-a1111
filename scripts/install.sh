@@ -58,7 +58,7 @@ pip3 install huggingface_hub runpod
 
 echo "Downloading Deliberate v2 model"
 cd /workspace/stable-diffusion-webui/models/Stable-diffusion
-wget -O absolutereality_lcm.safetensors https://huggingface.co/treksis/buffalo_l/resolve/main/absolutereality_lcm.safetensors
+wget -O realisticVisionV51_v51VAE.safetensors https://huggingface.co/treksis/buffalo_l/resolve/main/realisticVisionV51_v51VAE.safetensors
 
 echo "Downloading SD 1.5 VAE"
 cd /workspace/stable-diffusion-webui/models/VAE
